@@ -20,12 +20,12 @@ To run this application you must have [Docker](https://docs.docker.com/install/)
 `cd ASE-Interview-P1`
 3. Start up application
 `docker-compose up`
-- flags like `-d` let you run the app detached from your terminal
-- use `docker-compose ps` to see what is currently running
+	- flags like `-d` let you run the app detached from your terminal
+	- use `docker-compose ps` to see what is currently running
 4. Enter [http://localhost:8080/](http://localhost:8080/) in a browser to see the application running
 5. Test add user and delete user functions
 6. If you started Compose with `docker-compose up -d` use `docker-compose stop` to stop your service once done.
-- If you did not use detach flag hit `CTRL` + `C`
+	- If you did not use detach flag hit `CTRL` + `C`
 
 # [Running with Jenkins](#running-with-jenkins)
 
