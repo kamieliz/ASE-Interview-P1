@@ -74,6 +74,7 @@ Using Jenkins for automation:
 - [Using Jenkins CI/CD on your NodeJS app](https://blog.harveydelaney.com/jenkins-build-test-deploy-node-app/)
 
 Ansible and Orchestration:
+To view ansible attempt check out ansible folder
 - [How to Deploy a container with Ansible](https://www.techrepublic.com/article/how-to-deploy-a-container-with-ansible/)
 - [Automation vs. Orchestration](https://www.burwood.com/blog-archive/automation-vs-orchestration-whats-the-difference)
 - [How to Deploy Docker Container](https://www.codementor.io/@mamytianarakotomalala/how-to-deploy-docker-container-with-ansible-on-debian-8-mavm48kw0)

@@ -1,0 +1,27 @@
+--
+- hosts: webserver
+  remote_user: remote_username
+  become: yes
+  become_method: sudo
+  
+  tasks:
+    - name: Install pip
+      apt: name=python-pip state=present
+      
+    - name: install docker-py
+      pip: name=docker-py
+      
+    - name: Build Docker image from Dockerfile
+      docker_image:
+        name: web
+        path: docker
+        state: build
+        
+    - name: Running the container
+      docker_container:
+        image: web:latest
+        path: docker
+        state: running
+            
+    - name: Check if container is running
+      shell: docker ps
