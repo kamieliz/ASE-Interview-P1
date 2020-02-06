@@ -12,7 +12,7 @@
 This repository contains the files for a web-based user directory that utilizes [Node.JS](https://www.w3schools.com/nodejs/nodejs_intro.asp) and the [Express framework](https://expressjs.com/). It creates a simple web page that allows you to view the user directory and add/delete users from it using [AJAX](https://www.w3schools.com/whatis/whatis_ajax.asp) API requests. The user directory is hosted using a [MongoDB](https://www.mongodb.com/what-is-mongodb) database. Each component has the ability to be ran in a separate container 
   
 
-##[Presentation](#presentation)
+## [Presentation](#presentation)
 I created a presentation to talk about how I approached this project and the various things I learned while creating this. Check out the presentation [here](https://docs.google.com/presentation/d/1Q-vwTyKmMiJI9utcJ_jaUm5RBft-qiX3Q6DDKmAWYls/edit?usp=sharing)
 
 ## [How to Run](#how-to-run)
