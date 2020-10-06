@@ -31,7 +31,7 @@ To run this application you must have [Docker](https://docs.docker.com/install/)
 6. If you started Compose with `docker-compose up -d` use `docker-compose stop` to stop your service once done.
 	- If you did not use detach flag hit `CTRL` + `C`
 
-# [Running with Jenkins](#running-with-jenkins)
+## [Running with Jenkins](#running-with-jenkins)
 
 I created a Docker image that builds Jenkins with Docker in the same container.
 1. Using the same repository run:
